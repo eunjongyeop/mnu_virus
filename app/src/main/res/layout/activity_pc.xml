@@ -10,23 +10,13 @@
         android:id="@+id/headerImage"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
         android:scaleType="fitCenter"
         android:src="@drawable/header" />
 
-    <!-- Rest of your UI elements -->
-    <!-- For example, other content below the header image -->
-    <TextView
-        android:id="@+id/sampleText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello, this is your app content!" />
-
-    <Button
-        android:id="@+id/button"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="PC"
-        android:onClick="openPcActivity" />
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
 
 </LinearLayout>
