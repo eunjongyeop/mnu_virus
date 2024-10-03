@@ -4,12 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backgroundImg">
+    android:background="@drawable/backgroundColorSetting"
+    >
 
-    <!-- Header Image -->
-
-    <!-- Rest of your UI elements -->
-    <!-- For example, other content below the header image -->
 
     <TextView
 
@@ -20,8 +17,10 @@
         android:textAlignment="center"
         android:gravity="center"
         android:textSize="20pt"
+        android:textStyle="bold"
         android:textColor="@color/black"
-        android:background="@color/teal"
+        android:background="@drawable/round_motion"
+        android:layout_margin="10pt"
         />
 
     <Button
@@ -29,20 +28,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="openPcActivity"
-        android:text="PC" />
+        android:text="PC"
+        android:textStyle="bold"
+        android:layout_margin="10pt"
+        android:background="@drawable/round_motion"
+        />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="모바일"
-        android:onClick="openPcActivity" />
+        android:textStyle="bold"
+        android:onClick="openPcActivity"
+        android:layout_margin="10pt"
+        android:background="@drawable/round_motion"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="커뮤니티"
-        android:onClick="openPcActivity" />
+        android:textStyle="bold"
+        android:onClick="openPcActivity"
+        android:layout_margin="10pt"
+        android:background="@drawable/round_motion"/>
 
 </LinearLayout>
