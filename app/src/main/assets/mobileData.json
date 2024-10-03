@@ -1,0 +1,10 @@
+[
+  { "imageName" : "item_layout_img1",
+    "title" : "DDoS 공격",
+    "content" : "1. 시스템의 새 IP 주소 설정\n2. DDoS 공격 허브로 인식된 국가 차단\n3. 평소에 WAF(웹 애플리케이션 방화벽) 사용"
+  },
+  { "imageName" : "item_layout_img2",
+    "title" : "랜섬웨어 공격",
+    "content" : "1. 임시로 인테넷 연결을 중단\n2. 이더넷이나 Wi-Fi 연결을 끊기\n3. (온라인피해 365 센터 142-235 연락) 사용"
+  }
+]

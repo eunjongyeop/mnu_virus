@@ -24,7 +24,7 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="openPcActivity"
@@ -35,22 +35,22 @@
         />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonMobile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="모바일"
         android:textStyle="bold"
-        android:onClick="openPcActivity"
+        android:onClick="openMobileActivity"
         android:layout_margin="10pt"
         android:background="@drawable/round_motion"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCommunity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="커뮤니티"
         android:textStyle="bold"
-        android:onClick="openPcActivity"
+        android:onClick="openCommunityActivity"
         android:layout_margin="10pt"
         android:background="@drawable/round_motion"/>
 

@@ -22,6 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PcActivity" />
+        <activity android:name=".MobileActivity" />
+        <activity android:name=".CommunityActivity" />
     </application>
 
 </manifest>
