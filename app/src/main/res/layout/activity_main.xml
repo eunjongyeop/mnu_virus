@@ -3,30 +3,46 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/backgroundImg">
 
     <!-- Header Image -->
-    <ImageView
-        android:id="@+id/headerImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-
-        android:scaleType="fitCenter"
-        android:src="@drawable/header" />
 
     <!-- Rest of your UI elements -->
     <!-- For example, other content below the header image -->
+
     <TextView
-        android:id="@+id/sampleText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello, this is your app content!" />
+
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:text="불법 프로그램 어플"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20pt"
+        android:textColor="@color/black"
+        android:background="@color/teal"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PC"
+        android:onClick="openPcActivity"
+        android:text="PC" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="모바일"
+        android:onClick="openPcActivity" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="커뮤니티"
         android:onClick="openPcActivity" />
 
 </LinearLayout>
