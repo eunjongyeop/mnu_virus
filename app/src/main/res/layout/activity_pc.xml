@@ -5,13 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!-- Header Image -->
-    <ImageView
-        android:id="@+id/headerImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/header" />
+    <!-- Header -->
+    <include layout="@layout/header_layout" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
